@@ -30,4 +30,8 @@ public class Cat extends Animal {
                 ", age=" + age +
                 '}';
     }
+
+    public void hello (Cat cat) {
+        System.out.println("Hello! I am " + cat);
+    }
 }
