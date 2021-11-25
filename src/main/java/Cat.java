@@ -22,4 +22,12 @@ public class Cat extends Animal {
         this.name = name;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name=" + name +
+                ", age=" + age +
+                '}';
+    }
 }
